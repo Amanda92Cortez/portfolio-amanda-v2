@@ -15,40 +15,45 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center; /* Garante que tudo fique centralizado */
     height: auto;
 }
 
-
+/* Ajuste na imagem */
 .projeto img {
-    width: 100%; /* Ajusta a largura da imagem ao contêiner */
-    max-width: 500px; /* Define um tamanho máximo */
-    height: auto; /* Mantém a proporção original */
-    display: block; /* Evita espaços extras abaixo da imagem */
+    width: 100%;
+    max-width: 300px; /* Define um tamanho máximo para manter padronizado */
+    height: 200px; /* Mantém um tamanho fixo */
     object-fit: cover; /* Garante que a imagem se ajuste sem distorcer */
-    border-radius: 8px; /* Bordas arredondadas (opcional) */
-    object-fit: cover; /* Ajusta a imagem sem distorcer */
     border-radius: 10px;
-    margin-top: auto;
 }
 
+/* Centraliza e mantém os textos alinhados */
 .projeto h3, 
 .projeto p, 
 .projeto p i {
-    width: 100%; /* Mantém alinhado no centro */
-    max-width: 300px; /* Garante que tudo fique do mesmo tamanho */
+    max-width: 100%; /* Permite que os textos se ajustem */
     text-align: center; /* Centraliza o texto */
+    margin: 5px 0; /* Adiciona um espaçamento uniforme */
 }
 
+/* Ajusta o botão para ficar no final */
+/* Ajuste do botão */
 .projeto a {
     display: inline-block;
-    margin-top: 10px;
+    margin-top: auto; /* Empurra o botão para o final */
     padding: 10px 15px;
     background: #333;
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    align-self: center; /* Mantém o botão centralizado */
 }
-
 .projeto a:hover {
     background: #555;
 }
+
+/* .botao{
+    margin-top: auto; 
+    align-self: center; 
+} */
