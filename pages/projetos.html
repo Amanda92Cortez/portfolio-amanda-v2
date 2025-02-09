@@ -22,39 +22,62 @@
         <h2>Projetos</h2>
         <div class="filtros">
             <div><button onclick="filtrarProjetos('todos')">Todos</button></div>
-            <div><button onclick="filtrarProjetos('fullstack')">Full Stack</button></div>
-            <div><button onclick="filtrarProjetos('frontend')">Front End</button></div>
-            <div><button onclick="filtrarProjetos('backend')">Back End</button></div>
-            <div><button onclick="filtrarProjetos('automacao')">Automação (QA)</button></div>
+            <div><button onclick="filtrarProjetos('fullstack')"><i class="fa-solid fa-laptop-code"></i> Full Stack</i></button></div>
+            <div><button onclick="filtrarProjetos('frontend')"><i class="fa-solid fa-code"></i> Front End</button></div>
+            <div><button onclick="filtrarProjetos('backend')"><i class="fa-solid fa-server"></i> Back End</button></div>
+            <div><button onclick="filtrarProjetos('automacao')"><i class="fa-solid fa-vial"></i> Automação (QA)</button></div>
         </div>
+        <!-- 
+        Full Stack: <i class="fa-solid fa-laptop-code fa-2x">
+        Front End: <i class="fa-solid fa-code fa-2x"></i>
+        BackEnd: <i class="fa-solid fa-server fa-2x"></i>
+        Automação: <i class="fa-solid fa-robot fa-2x"></i>
+        -->
         <div class="projetos-container">
             <div class="projeto" data-categoria="fullstack">
                 <img src="./img/agenda_cirurgia_hosp_10_julho.gif" alt="Imagem do projeto">
                 <h3>Agenda de Cirurgia</h3>
                 <p>App de visualização das salas de cirurgias.</p>
+                <p><i class="fa-solid fa-laptop-code fa-2x"></i></p>
                 <a href="https://github.com/Amanda92Cortez/agenda-cirurgia-php" target="_blank">Ver no GitHub</a>
+            </div>
+            <div class="projeto" data-categoria="frontend">
+                <img src="./img/agenda_cirurgia_hosp_10_julho.gif" alt="Imagem do projeto">
+                <h3>Agenda de Cirurgia</h3>
+                <p>App de visualização das salas de cirurgias.</p>
+                <p><i class="fa-solid fa-code fa-2x"></i></i></p>
+                <a href="https://github.com/Amanda92Cortez/agenda-cirurgia-react" target="_blank">Ver no GitHub</a>
             </div>
 
             <div class="projeto" data-categoria="frontend">
-                <img src="imagem_projeto.jpg" alt="Imagem do projeto">
-                <h3>Front End do Projeto</h3>
-                <p>Descrição do projeto.</p>
-                <a href="https://github.com/seuusuario/repositorio" target="_blank">Ver no GitHub</a>
+                <img src="./img/alurinha.gif" alt="Imagem do projeto">
+                <h3>Alurinha</h3>
+                <p>App apresenta bloco de "cursos" da Alura.</p>
+                <p><i class="fa-solid fa-code fa-2x"></i></p>
+                <a href="https://github.com/Amanda92Cortez/alura-alurinha" target="_blank">Ver no GitHub</a>
             </div>
 
+
+            <!-- Modelo -->
             <div class="projeto" data-categoria="backend">
                 <img src="imagem_projeto.jpg" alt="Imagem do projeto">
                 <h3>Back End do Projeto</h3>
                 <p>Descrição do projeto.</p>
                 <a href="https://github.com/seuusuario/repositorio" target="_blank">Ver no GitHub</a>
             </div>
-
-            <div class="projeto" data-categoria="automacao">
+            <div class="projeto" data-categoria="backend">
                 <img src="imagem_projeto.jpg" alt="Imagem do projeto">
-                <h3>Automação do Projeto</h3>
+                <h3>Back End do Projeto</h3>
                 <p>Descrição do projeto.</p>
                 <a href="https://github.com/seuusuario/repositorio" target="_blank">Ver no GitHub</a>
             </div>
+            <div class="projeto" data-categoria="backend">
+                <img src="imagem_projeto.jpg" alt="Imagem do projeto">
+                <h3>Back End do Projeto</h3>
+                <p>Descrição do projeto.</p>
+                <a href="https://github.com/seuusuario/repositorio" target="_blank">Ver no GitHub</a>
+            </div>
+            
 
         </div>
     </section>

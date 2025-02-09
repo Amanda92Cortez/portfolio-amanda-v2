@@ -2,7 +2,7 @@
 /* Projetos */
 .projetos-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
     gap: 20px;
     justify-content: center;
     margin-top: 20px;
@@ -13,18 +13,40 @@
     padding: 15px;
     border-radius: 8px;
     text-align: center;
+    display: flex;
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    align-items: center; /* Alinha os itens ao centro */
+    
 }
 
-
 .projeto img {
-    width: 100%;
-    max-width: 400px;
-    border-radius: 10px;
+    width: 100%; /* Faz a imagem ocupar toda a largura disponível */
+    max-width: 300px; /* Define um tamanho máximo para padronizar */
+    height: 200px; /* Define uma altura fixa */
+    object-fit: cover; /* Mantém a proporção da imagem sem distorcer */
+    border-radius: 10px; /* Bordas arredondadas */
+    margin-bottom: 10px; /* Espaço entre a imagem e o título */
+    margin-top: auto;
+}
+
+.projeto h3, 
+.projeto p, 
+.projeto p i, 
+.projeto a {
+    width: 100%; /* Mantém alinhado no centro */
+    max-width: 400px; /* Garante que tudo fique do mesmo tamanho */
+    text-align: center; /* Centraliza o texto */
+    margin-top: auto;
+}
+
+.projeto p i {
+    display: block; /* Força o ícone para uma linha separada */
+    margin-top: 5px;
 }
 
 .projeto a {
     display: inline-block;
-    margin-top: 10px;
+    margin-top: auto;
     padding: 10px 15px;
     background: #333;
     color: white;
