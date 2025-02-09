@@ -1,0 +1,51 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: 'fonteEspecial', sans-serif;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+@font-face {
+  font-family: 'fonteEspecial';
+  src: url('../fonts/TypewriterMonoFine.ttf') format('truetype'); /* Ajuste o caminho da fonte */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Atalhos */
+:root {
+    /*Primeiro opção*/
+    --azul-royal: #4169e1;
+    --azul-escuro: #041833;
+    --azul-medio: #1875e8;
+  
+    /*Segundo opção*/
+    /* --primeiro: #2b9eb3;
+      --segundo: #85cc9c;
+      --terceiro: #bcd9a0;
+      --quarto: #edf79e;
+      --quinto: #fafad7; */
+  
+    /*Terceiro opção*/
+    --primeiro: #87e8d1;
+    --segundo: #74d5bf;
+    --terceiro: #60c3ad;
+    --quarto: #4db09a;
+    --quinto: #399d88;
+  
+    --cor-fonte-principal: #041833;
+    --cor-fonte-post: #444444;
+    --branco: #fff;
+    --fonte-principal: "Almendra", serif;
+    font-family: var(--fonte-principal);
+  }

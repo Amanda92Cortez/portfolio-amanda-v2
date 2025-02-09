@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/filtros.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/projetos.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/tech.css">
+
+    
+</head>
+<body>
+
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <div class="filtros">
+            <div><button onclick="filtrarProjetos('todos')">Todos</button></div>
+            <div><button onclick="filtrarProjetos('fullstack')">Full Stack</button></div>
+            <div><button onclick="filtrarProjetos('frontend')">Front End</button></div>
+            <div><button onclick="filtrarProjetos('backend')">Back End</button></div>
+            <div><button onclick="filtrarProjetos('automacao')">Automação</button></div>
+        </div>
+        <div class="projetos-container">
+            <div class="projeto" data-categoria="fullstack">
+                <img src="imagem_projeto.jpg" alt="Imagem do projeto">
+                <h3>Nome do Projeto</h3>
+                <p>Descrição do projeto.</p>
+                <a href="https://github.com/seuusuario/repositorio" target="_blank">Ver no GitHub</a>
+            </div>
+
+            <div class="projeto" data-categoria="frontend">
+                <img src="imagem_projeto.jpg" alt="Imagem do projeto">
+                <h3>Front End do Projeto</h3>
+                <p>Descrição do projeto.</p>
+                <a href="https://github.com/seuusuario/repositorio" target="_blank">Ver no GitHub</a>
+            </div>
+
+            <div class="projeto" data-categoria="backend">
+                <img src="imagem_projeto.jpg" alt="Imagem do projeto">
+                <h3>Back End do Projeto</h3>
+                <p>Descrição do projeto.</p>
+                <a href="https://github.com/seuusuario/repositorio" target="_blank">Ver no GitHub</a>
+            </div>
+
+            <div class="projeto" data-categoria="automacao">
+                <img src="imagem_projeto.jpg" alt="Imagem do projeto">
+                <h3>Automação do Projeto</h3>
+                <p>Descrição do projeto.</p>
+                <a href="https://github.com/seuusuario/repositorio" target="_blank">Ver no GitHub</a>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>

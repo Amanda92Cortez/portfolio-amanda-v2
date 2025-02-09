@@ -1,0 +1,50 @@
+
+/* Seção de Tecnologias */
+#tecnologias {
+    background-color: #fff;
+    padding: 40px 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#tecnologias h2 {
+    text-align: center;
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Lista de Tecnologias */
+.tecnologias-lista {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);  /* 4 colunas */
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Estilo de cada item de tecnologia */
+.tecnologia {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.tecnologia:hover {
+    transform: scale(1.05);
+}
+
+.tecnologia img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.tecnologia p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
