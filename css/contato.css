@@ -1,0 +1,15 @@
+#contato {
+    text-align: center; /* Centraliza o título */
+}
+
+.contato-links {
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Alinha os itens verticalmente */
+    gap: 15px; /* Espaço entre os ícones */
+}
+
+.contato-links img {
+    width: 100px; /* Ajuste o tamanho dos ícones */
+    height: auto;
+}
