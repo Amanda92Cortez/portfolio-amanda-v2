@@ -3,7 +3,7 @@
     Título do Projeto
     <br />
     <br />
-    <img src="img/image_06.gif" alt="Gif">
+    <img src="img/banner.avif" alt="Banner">
     <br />
   </h1>
 
