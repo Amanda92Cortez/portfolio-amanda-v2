@@ -1,32 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portfólio</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/about.css">
-    <link rel="stylesheet" href="css/filtros.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/projetos.css">
-    <link rel="stylesheet" href="css/section.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/tech.css">
-    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="../css/filtros.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/projetos.css">
+    <link rel="stylesheet" href="../css/section.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/tech.css">
 
-    
+
 </head>
+
 <body>
 
     <section id="projetos">
         <h2>Projetos</h2>
         <div class="filtros">
             <div><button onclick="filtrarProjetos('todos')">Todos</button></div>
-            <div><button onclick="filtrarProjetos('fullstack')"><i class="fa-solid fa-laptop-code"></i> Full Stack</i></button></div>
+            <div><button onclick="filtrarProjetos('fullstack')"><i class="fa-solid fa-laptop-code"></i> Full
+                    Stack</i></button></div>
             <div><button onclick="filtrarProjetos('frontend')"><i class="fa-solid fa-code"></i> Front End</button></div>
             <div><button onclick="filtrarProjetos('backend')"><i class="fa-solid fa-server"></i> Back End</button></div>
-            <div><button onclick="filtrarProjetos('automacao')"><i class="fa-solid fa-vial"></i> Automação (QA)</button></div>
+            <div><button onclick="filtrarProjetos('automacao')"><i class="fa-solid fa-vial"></i> Automação (QA)</button>
+            </div>
         </div>
         <!-- 
         Full Stack: <i class="fa-solid fa-laptop-code fa-2x">
@@ -34,7 +37,8 @@
         BackEnd: <i class="fa-solid fa-server fa-2x"></i>
         Automação: <i class="fa-solid fa-robot fa-2x"></i>
         -->
-        <div class="projetos-container">
+            <!-- Projetos -->
+
             <div class="projeto" data-categoria="fullstack">
                 <img src="./img/agenda_cirurgia_hosp_10_julho.gif" alt="Imagem do projeto">
                 <h3>Agenda de Cirurgia</h3>
@@ -83,7 +87,8 @@
             <div class="projeto" data-categoria="frontend">
                 <img src="./img/harrypotter.gif" alt="Imagem do projeto">
                 <h3>Harry Potter</h3>
-                <p>O App listada das casas com direcionamento de site de cada um, também trabalhando com responsividade mobile.</p>
+                <p>O App listada das casas com direcionamento de site de cada um, também trabalhando com responsividade
+                    mobile.</p>
                 <p>Linguagens: HTML, CSS</p>
                 <p class="botao"><i class="fa-solid fa-code fa-2x"></i></p>
                 <a href="https://github.com/Amanda92Cortez/alura-harry-potter" target="_blank">Ver no GitHub</a>
@@ -92,10 +97,12 @@
             <div class="projeto" data-categoria="automacao">
                 <img src="./img/cypressBytebank.gif" alt="Imagem do projeto">
                 <h3>Bytebank</h3>
-                <p>O Bytebank é um MVP de banco digital que está no início de suas atividades mas ainda falta muito que ser desenvolvido.</p>
+                <p>O Bytebank é um MVP de banco digital que está no início de suas atividades mas ainda falta muito que
+                    ser desenvolvido.</p>
                 <p>Linguagens: React, Node JS, Cypress</p>
                 <p class="botao"><i class="fa-solid fa-robot fa-2x"></i></p>
-                <a href="https://github.com/Amanda92Cortez/alura-cypress-reaclurt-bytebank" target="_blank">Ver no GitHub</a>
+                <a href="https://github.com/Amanda92Cortez/alura-cypress-reaclurt-bytebank" target="_blank">Ver no
+                    GitHub</a>
             </div>
 
             <div class="projeto" data-categoria="automacao">
@@ -104,18 +111,20 @@
                 <p>O Jornada Milhas é uma StartUP fictícia.</p>
                 <p>Linguagens: Angular, Playwright</p>
                 <p class="botao"><i class="fa-solid fa-robot fa-2x"></i></p>
-                <a href="https://github.com/Amanda92Cortez/alura-jornada-milhas-playwright" target="_blank">Ver no GitHub</a>
-            </div>    
-            
+                <a href="https://github.com/Amanda92Cortez/alura-jornada-milhas-playwright" target="_blank">Ver no
+                    GitHub</a>
+            </div>
+
             <div class="projeto" data-categoria="automacao">
                 <img src="./img/cac-tat.gif" alt="Imagem do projeto">
                 <h3>CAC TAT</h3>
                 <p>Utilização da ferramenta Cypress. Aula pelo Walmyr.</p>
                 <p>Linguagens: Cypress</p>
                 <p class="botao"><i class="fa-solid fa-robot fa-2x"></i></p>
-                <a href="https://github.com/Amanda92Cortez/udemy_cypress-do-zero-a-nuvem" target="_blank">Ver no GitHub</a>
-            </div>  
-            
+                <a href="https://github.com/Amanda92Cortez/udemy_cypress-do-zero-a-nuvem" target="_blank">Ver no
+                    GitHub</a>
+            </div>
+
             <div class="projeto" data-categoria="automacao">
                 <img src="./img/fgc.gif" alt="Imagem do projeto">
                 <h3>FGC</h3>
@@ -123,7 +132,7 @@
                 <p>Linguagens: Cypress</p>
                 <p class="botao"><i class="fa-solid fa-robot fa-2x"></i></p>
                 <a href="https://github.com/Amanda92Cortez/cypress-fgc-2.0" target="_blank">Ver no GitHub</a>
-            </div>  
+            </div>
 
             <div class="projeto" data-categoria="frontend">
                 <img src="./img/portfolio_v1.gif" alt="Imagem do projeto">
@@ -132,16 +141,17 @@
                 <p>Linguagens: HTML, CSS, JavaScript, React</p>
                 <p class="botao"><i class="fa-solid fa-code fa-2x"></i></p>
                 <a href="https://github.com/Amanda92Cortez/portfolio-amanda-react" target="_blank">Ver no GitHub</a>
-            </div>   
-            
+            </div>
+
             <div class="projeto" data-categoria="frontend">
                 <img src="./img/petshop.gif" alt="Imagem do projeto">
                 <h3>PetShop</h3>
-                <p>O App com tratamentos de campos para preenchimentos e API Cep para facilitar a localização de endereço.</p>
+                <p>O App com tratamentos de campos para preenchimentos e API Cep para facilitar a localização de
+                    endereço.</p>
                 <p>Linguagens: HTML, CSS, JavaScript</p>
                 <p class="botao"><i class="fa-solid fa-code fa-2x"></i></p>
                 <a href="https://github.com/Amanda92Cortez/alura-petshop" target="_blank">Ver no GitHub</a>
-            </div> 
+            </div>
 
             <div class="projeto" data-categoria="frontend">
                 <img src="./img/organograma.gif" alt="Imagem do projeto">
@@ -150,7 +160,7 @@
                 <p>Linguagens: HTML, CSS, JavaScript, React</p>
                 <p class="botao"><i class="fa-solid fa-code fa-2x"></i></p>
                 <a href="https://github.com/Amanda92Cortez/alura-organograma-v2" target="_blank">Ver no GitHub</a>
-            </div> 
+            </div>
 
             <div class="projeto" data-categoria="frontend">
                 <img src="./img/nutricionista.png" alt="Imagem do projeto">
@@ -160,7 +170,7 @@
                 <p>Linguagens: HTML, CSS, JavaScript</p>
                 <p class="botao"><i class="fa-solid fa-code fa-2x"></i></p>
                 <a href="https://github.com/Amanda92Cortez/alura-nutricionista" target="_blank">Ver no GitHub</a>
-            </div> 
+            </div>
 
             <div class="projeto" data-categoria="frontend">
                 <img src="./img/meteora-boostrap.png" alt="Imagem do projeto">
@@ -169,7 +179,7 @@
                 <p>Linguagens: HTML, CSS, Boostrap</p>
                 <p class="botao"><i class="fa-solid fa-code fa-2x"></i></p>
                 <a href="https://github.com/Amanda92Cortez/alura-meteora-bootstrap" target="_blank">Ver no GitHub</a>
-            </div> 
+            </div>
 
             <!-- <div class="projeto" data-categoria="backend">
                 <img src="./img/nestjs.jpg" alt="Imagem do projeto">
@@ -184,8 +194,9 @@
         </div>
     </section>
 
-    <script src="js/main.js"></script>
-    <script src="js/script.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/script.js"></script>
 
 </body>
+
 </html>
