@@ -1,6 +1,6 @@
 <div align="center">
   <h1 align="center">
-    Título do Projeto
+    My Portfolio - Versão 2
     <br />
     <br />
     <img src="img/banner.avif" alt="Banner">
@@ -9,7 +9,7 @@
 
   <h2> 
   
-  :construction: Projeto em construção :construction:
+  :white_check_mark: Projeto finalizado
   </h2>
 </div>
 
@@ -25,6 +25,11 @@
 
 # :pushpin: Descrição do Projeto <a name="id01"></a>
 Apresentação do Portfolio para compartilhar os meus projetos, sbore minha carreira e outros.
+
+---
+
+# 🎯 Desafio <a name="id04"></a>
+<img src="/img/portfolio_v2.gif" alt="Docusaurus">
 
 ---
 
